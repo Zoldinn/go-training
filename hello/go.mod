@@ -1,7 +1,7 @@
-module example/hello
+module hello
 
 go 1.25.0
 
-replace example/greetings => ../greetings
+replace calcul => ../calcul
 
-require example/greetings v0.0.0-00010101000000-000000000000
+require calcul v0.0.0-00010101000000-000000000000
